@@ -69,9 +69,43 @@
 // for (var i =0; i<=10; i++){
 //     document.write(i + "<br>");
 // }
-var i = 1;
-while(i<=10){
-    document.write(i +"<br>");
-    i++;
-}
+// var i = 1;
+// while(i<=10){
+//     document.write(i +"<br>");
+//     i++;
+// }
+// var num = 16;
+// document.write ("<br/>Result is: " + num * num);
 
+// var num = 25; 
+// document.write ("<br/> Result is: " + num * num);
+
+// var num = 36;
+// document.write ("<br/> Result is: " + num * num);
+
+// //using function
+
+// function square(){
+// var num = 16;
+// document.write ("<br/Result is: " + num * num);
+
+// }
+// square();
+//perameterized function calling
+// function square_p(num){
+//     var num = 22;
+//     document.write("<br/> Perametirized result is: " + num * num);
+// }
+// square_p();
+
+
+function math(){
+    let num1 = Number(prompt("Enter frist number"));
+    let num2 = Number(prompt("Enter second number"));
+    let num3 = Number(prompt("Enter third number"));
+    document.write("<br/>Adiition is: " + (num1+num2+num3));
+    document.write("<br/>Substraction is: " + (num1-num2-num3));
+    document.write("<br/> Multification is: " + (num1*num2*num3));
+    document.write("<br/> Divition is2: " + (num1/num2/num3));
+}
+math();
