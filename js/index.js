@@ -109,3 +109,9 @@ function math(){
     document.write("<br/> Divition is2: " + (num1/num2/num3));
 }
 math();
+
+function perameterized(a,b,c){
+document.write("<br/>Perameterized Addition is: " + (a+b+c));
+document.write("<br/>Perameterized Substaractio is: " + (a-b-c));
+}
+perameterized(10,20,30);
